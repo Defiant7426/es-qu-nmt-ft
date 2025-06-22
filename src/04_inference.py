@@ -2,7 +2,7 @@ import os
 import torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-MODEL_KEY = "nllb"
+MODEL_KEY = "mbart"
 LAST_CHECKPOINT = "checkpoint-25500" 
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
