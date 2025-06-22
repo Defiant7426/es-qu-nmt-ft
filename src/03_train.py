@@ -10,7 +10,10 @@ from transformers import (
     Seq2SeqTrainingArguments,
 )
 
-MODEL_KEY = "nllb"
+# SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+# PROJECT_ROOT = os.path.dirname(SRC_DIR)
+
+MODEL_KEY = "mbart"
 
 MODEL_CHECKPOINTS = {
     "nllb": "facebook/nllb-200-distilled-600M",
